@@ -1,0 +1,13 @@
+torch
+torchaudio
+transformers
+datasets
+soundfile
+scipy
+numpy
+jiwer
+accelerate
+pyarrow
+huggingface_hub
+demucs
+sounddevice

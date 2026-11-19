@@ -1,0 +1,50 @@
+# Environments, caches, desktop files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.directory
+
+# Secrets (copy .env.example to .env and add your own token)
+.env
+!.env.example
+
+# Model weights and checkpoints (downloaded or produced by training)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.keras
+expriment_3/models/
+expriment_4/sentiment_model/
+
+# Datasets and media inputs
+datasets/
+expriment_2/data/
+expriment_3/data/
+expriment_3/samples/
+*.parquet
+*.npy
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.flac
+expriment_5/*.csv
+
+# Outputs written while running the experiments
+runs/
+expriment_1/sidecar/
+expriment_6/prev/
+expriment_2/report.html
+expriment_5/*.png
+*.log
+
+# Report build output and images containing people
+report/*.pdf
+report/assets/ex6_webcam_frame.png
